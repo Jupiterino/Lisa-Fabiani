@@ -10,11 +10,71 @@
     width: 4%;
     height: 4%;
 }
-
+#navTTT{
+    margin-left: 20px;
+}
 .navT{
     color: black;
+    font-size: 110%;
 }
 .navT:hover{
-    color: black;
+    color: rgb(71, 71, 71);
     text-decoration: none;
+    
+}
+.FotoIG{
+    padding-left: auto;
+    padding-right: auto;
+    width: 30%;
+}
+.box{
+    margin: auto;
+    width: 50%;
+    border: 2.5px solid rgb(15, 15, 15);
+    padding: 30px;
+    text-align: center;
+}
+.fotodue{
+    width: 100%;
+    display:block;
+}
+.bottone{
+    border-color: rgb(20, 20, 99);
+    border-radius: 1px;
+}
+.inputt{
+    border-color: rgb(20, 20, 99);
+    border-radius: 1px;
+}
+.bottone:hover{
+    background-color: rgb(45, 101, 204);
+    transition: 0.4s;
+    color: white;
+}
+a{
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.ig{
+    /*border: 2.5px solid rgb(15, 15, 15);*/
+    box-shadow: 5px 10px 18px #888888;
+    padding-top: 10px;
+    
+
+    padding-left: 20px;
+    
+}
+
+.megadiv{
+    margin: auto;
+    width: 80%;
+    height: 30%;
+    padding: 30px;
+}
+.imga{
+    width: 100%;
+    float: right;
+    box-shadow: 5px 10px 18px #888888;
 }
