@@ -6,3 +6,15 @@
     font-family: 'Josefin Sans', sans-serif;
     
 }
+.img{
+    width: 4%;
+    height: 4%;
+}
+
+.navT{
+    color: black;
+}
+.navT:hover{
+    color: black;
+    text-decoration: none;
+}
