@@ -109,3 +109,12 @@ body{
 .jupi:hover{
     color:#888888;
 }
+
+.nomee{
+    text-decoration: none;
+    color: rgb(21, 25, 29);
+}
+.nomee:hover{
+    text-decoration: none;
+    color: rgb(21, 25, 29);
+}
