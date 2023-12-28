@@ -25,13 +25,34 @@
       background-color: white;
       margin-top: 10%;
     }
+    .navbar{
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+    .container-fluid {
+            width: 100%;
+            max-width: 1200px; /* Puoi regolare questo valore in base alle tue esigenze */
+            margin: 0 auto; /* Centra il container */
+            text-align: center; /* Centra il testo all'interno del container */
+        }
+
+        .container-fluid img {
+            max-width: 100%; /* Assicura che l'immagine non superi la larghezza del container */
+            height: auto; /* Impedisce il ridimensionamento distorto dell'immagine */
+            display: block; /* Rimuove spazi vuoti sotto l'immagine */
+            margin: 0 auto; /* Centra l'immagine */
+        }
+        .img{
+          width: 8%;
+        }
   }
+  
     </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <img src="../Imgs/L-Letter-PNG-Picture.png" alt="" class="img">
+      <a href="../index.html"><img src="../Imgs/L-Letter-PNG-Picture.png" alt="" class="img"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
