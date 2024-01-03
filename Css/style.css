@@ -140,3 +140,26 @@ font-family: 'Parisienne', cursive;
 .scleta{
     color: black;
 }
+
+.am{
+    transition: 1s;
+    width: 130%;
+}
+.am:hover{
+    width: 160%;
+}
+
+.h3 {
+    margin: 0px;
+    background-image: url('../Imgs/376830396_6652470174799829_7706056664713079688_n\ \(1\).jpg');
+    background-repeat:no-repeat;
+    color: #FFFFFF;
+    font-size: 240%;
+    line-height: 360px;
+    text-align: center;
+ 
+  }
+
+  .sium:hover{
+    color: #313131;
+  }
