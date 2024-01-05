@@ -164,4 +164,52 @@ font-family: 'Parisienne', cursive;
     color: #313131;
   }
 
-  
+.wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent{
+    width: 13%;
+    margin: 10px;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.child{
+    height: 100%;
+    width: 110%;
+    background-size: cover;
+    transition: all 1s;
+    text-align: center;
+}
+
+.bg-one{
+    background-image: url(../Imgs/IMG-20240103-WA0024.jpg);
+}
+.bg-two{
+    background-image: url(../Imgs/amicamia1.jpg);
+}
+.bg-three{
+    background-image: url(../Imgs/IMG-20240103-WA0031.jpg);
+}
+.bg-four{
+    background-image: url(../Imgs/IMG-20240103-WA0034.jpg);
+}
+.bg-five{
+    background-image: url(../Imgs/IMG-20240103-WA0029.jpg);
+}
+.bg-six{
+    background-image: url(../Imgs/amicamia4.jpg);
+}
+
+.parent:hover .child{
+
+    transform: scale(1.2);
+}
