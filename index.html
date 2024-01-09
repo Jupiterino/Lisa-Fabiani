@@ -22,8 +22,16 @@
       .elenco{
         font-size: 150%;
       }
-      
+      .af2{
+        display: none;
+      }
   @media screen and (max-width: 1000px){
+    .af1{
+      display: none;
+    }
+    .af2{
+      display: block;
+    }
     .elenco{
       font-size: 230%;
     }
@@ -114,20 +122,23 @@
     </div>
   </nav>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner bg-dark ">
-      <div class="carousel-item active ">
-        <img src="Imgs/SAM_7309.jpg" class="fotodue" alt="...">
+      <div class="carousel-item active">
+        <img src="Imgs/SAM_7309.jpg" class="fotodue af1" alt="...">
+        <img src="Imgs/bannerdue1.jpg" class="fotodue af2" alt="..." >
       </div>
       <div class="carousel-item">
-        <img src="Imgs/SAM_7224 (4).jpg" class="fotodue" alt="...">
+        <img src="Imgs/SAM_7224 (4).jpg" class="fotodue af1" alt="...">
+        <img src="Imgs/bannerdue2.jpg" class="fotodue af2" alt="..." >
       </div>
       <div class="carousel-item">
-        <img src="Imgs/SAM_7284.jpg" class="fotodue" alt="...">
+        <img src="Imgs/SAM_7284.jpg" class="fotodue af1" alt="...">
+        <img src="Imgs/bannerdue3.jpg" class="fotodue af2" alt="..." >
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
